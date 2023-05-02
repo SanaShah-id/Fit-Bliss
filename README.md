@@ -5,7 +5,8 @@ To get bliss, be fit. This fitness App will help you out through physical traini
 Contains information about nutritional values including the meal plans, also provides an overall recommendation about what to eat.
 
 # End points and Methods
-GET healthyeating/{mealplan}
+GET **healthyeating/{mealplan}**
+
 Get the mealplan by healthy eating.
 
 # Parameters
@@ -71,9 +72,10 @@ The following is a sample response from the **healthyeating/{mealplan}** endpoin
   }
 ```
 
-# Response
+# Response Description
 The following table describes each item in the response.
 | Response item | Description | Data type |
+| ------ | ------ | ------ |
 | yogurt | Semifluid fermented milk food | Object |
 | Apple | Friut name, rich in Iron | Integer |
 | Slice | A thin, broad piece of food | Integer |
